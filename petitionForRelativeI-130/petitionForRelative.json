@@ -1,0 +1,700 @@
+{
+ "pages": [
+  {
+   "name": "page1",
+   "questions": [
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Spouse"
+      },
+      {
+       "value": "two",
+       "text": "Parent"
+      },
+      {
+       "value": "three",
+       "text": "Brother/Sister"
+      },
+      {
+       "value": "four",
+       "text": "Child"
+      }
+     ],
+     "isRequired": true,
+     "name": "I am filing this petition for my:"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Yes"
+      },
+      {
+       "value": "two",
+       "text": "No"
+      }
+     ],
+     "isRequired": true,
+     "name": "Are you related by adoption?"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Yes"
+      },
+      {
+       "value": "two",
+       "text": "No"
+      }
+     ],
+     "isRequired": true,
+     "name": "Did you gain permanent residence through adoption?"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "Name (Family name in CAPS)"
+      },
+      {
+       "name": "text2",
+       "title": "(First)"
+      },
+      {
+       "name": "text3",
+       "title": "(Middle)"
+      },
+      {
+       "name": "text4",
+       "title": "Address (Number and Street)"
+      },
+      {
+       "name": "text5",
+       "title": "(Apt. No)"
+      },
+      {
+       "name": "text6",
+       "title": "(Town or City)"
+      },
+      {
+       "name": "text7",
+       "title": "(State/Country)"
+      },
+      {
+       "name": "text8",
+       "title": "(Zip/Postal Code)"
+      },
+      {
+       "name": "text9",
+       "title": "Place of Birth (Town or City)"
+      },
+      {
+       "name": "text10",
+       "title": "Place of Birth (State/Country)"
+      },
+      {
+       "name": "text11",
+       "title": "Other Names Used (including maiden name)"
+      },
+      {
+       "name": "text12",
+       "title": "Date and Place of Present Marriage (if married)"
+      },
+      {
+       "name": "text13",
+       "title": "U.S. Social Security Number (If any)"
+      },
+      {
+       "name": "text14",
+       "title": "Alien Registration Number"
+      },
+      {
+       "name": "text15",
+       "title": "Name(s) of Prior Spouse(s)"
+      },
+      {
+       "name": "text16",
+       "title": "Date(s) Marriage(s) Ended"
+      }
+     ],
+     "name": "Information about you"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Date of Birth"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Male"
+      },
+      {
+       "value": "two",
+       "text": "Female"
+      }
+     ],
+     "isRequired": true,
+     "name": "Gender"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Married"
+      },
+      {
+       "value": "two",
+       "text": "Widowed"
+      },
+      {
+       "value": "three",
+       "text": "Single"
+      },
+      {
+       "value": "four",
+       "text": "Divorced"
+      }
+     ],
+     "isRequired": true,
+     "name": "Marital Status"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Birth in the U.S."
+      },
+      {
+       "value": "two",
+       "text": "Naturalization. Give certificate number and date and place of issuance."
+      },
+      {
+       "value": "three",
+       "text": "Parents. Have you obtained a certificate of citizenship in your own name?"
+      },
+      {
+       "value": "four",
+       "text": "(Parents) Yes. Give certificate number, date and place of issuance."
+      },
+      {
+       "value": "five",
+       "text": "(Parents) No."
+      }
+     ],
+     "isRequired": true,
+     "name": "If  you are a U.S. citizen, complete the following: My citizenship was acquired through (check one):"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "If you are a lawful permanent resident alien, complete the following: (Date and place of admission for or adjustment to lawful permanent residence and class of admission."
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Yes"
+      },
+      {
+       "value": "two",
+       "text": "No"
+      }
+     ],
+     "isRequired": true,
+     "name": "Did you gain permanent resident status through marriage to a U.S. citizen or lawful permanent resident?"
+    }
+   ]
+  },
+  {
+   "name": "page2",
+   "questions": [
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "Name (Family name in CAPS)"
+      },
+      {
+       "name": "text2",
+       "title": "(First)"
+      },
+      {
+       "name": "text3",
+       "title": "(Middle)"
+      },
+      {
+       "name": "text4",
+       "title": "Address (Number and Street)"
+      },
+      {
+       "name": "text5",
+       "title": "(Apt. No)"
+      },
+      {
+       "name": "text6",
+       "title": "(Town or City)"
+      },
+      {
+       "name": "text7",
+       "title": "(State/Country)"
+      },
+      {
+       "name": "text8",
+       "title": "(Zip/Postal Code)"
+      },
+      {
+       "name": "text9",
+       "title": "Place of Birth (Town or City)"
+      },
+      {
+       "name": "text10",
+       "title": "Place of Birth (State/Country)"
+      },
+      {
+       "name": "text11",
+       "title": "Other Names Used (including maiden name)"
+      },
+      {
+       "name": "text12",
+       "title": "Date and Place of Present Marriage (if married)"
+      },
+      {
+       "name": "text13",
+       "title": "U.S. Social Security Number (If any)"
+      },
+      {
+       "name": "text14",
+       "title": "Alien Registration Number"
+      },
+      {
+       "name": "text15",
+       "title": "Name(s) of Prior Spouse(s)"
+      },
+      {
+       "name": "text16",
+       "title": "Date(s) Marriage(s) Ended"
+      }
+     ],
+     "name": "Information about your relative"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Date of Birth"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Male"
+      },
+      {
+       "value": "two",
+       "text": "Female"
+      }
+     ],
+     "isRequired": true,
+     "name": "Gender"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Married"
+      },
+      {
+       "value": "two",
+       "text": "Widowed"
+      },
+      {
+       "value": "three",
+       "text": "Single"
+      },
+      {
+       "value": "four",
+       "text": "Divorced"
+      }
+     ],
+     "isRequired": true,
+     "name": "Marital Status"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Yes"
+      },
+      {
+       "value": "two",
+       "text": "No"
+      }
+     ],
+     "isRequired": true,
+     "name": "Has your relative ever been in the U.S.?"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "If your relative is currently in the U.S., complete the following: (He or she arrived as a): (visitor, student, stowaway, without inspection, etc."
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Arrival/Departure Record (I-94)"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Date arrived"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Date authorized stay expired, or will expire, as shown on Form I-94 or I-95"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Name and address of present employer (if any)"
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Date this employment began"
+    },
+    {
+     "type": "radiogroup",
+     "choices": [
+      {
+       "value": "one",
+       "text": "No"
+      },
+      {
+       "value": "two",
+       "text": "Yes"
+      },
+      {
+       "value": "three",
+       "text": "Removal"
+      },
+      {
+       "value": "four",
+       "text": "Exclusion/Deportation"
+      },
+      {
+       "value": "five",
+       "text": "Rescission"
+      },
+      {
+       "value": "six",
+       "text": "Judicial Proceedings"
+      }
+     ],
+     "commentText": "When/Where",
+     "hasComment": true,
+     "isRequired": true,
+     "name": "Has your relative ever been under immigration proceedings?"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "(Name)"
+      },
+      {
+       "name": "text2",
+       "title": "(Relationship)"
+      },
+      {
+       "name": "text3",
+       "title": "(Date of Birth)"
+      },
+      {
+       "name": "text4",
+       "title": "(Country of Birth)"
+      }
+     ],
+     "name": "List spouse and all children of your relative."
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "(Name)"
+      },
+      {
+       "name": "text2",
+       "title": "(Relationship)"
+      },
+      {
+       "name": "text3",
+       "title": "(Date of Birth)"
+      },
+      {
+       "name": "text4",
+       "title": "(Country of Birth)"
+      }
+     ],
+     "name": "List children of relative continued"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "(Name)"
+      },
+      {
+       "name": "text2",
+       "title": "(Relationship)"
+      },
+      {
+       "name": "text3",
+       "title": "(Date of Birth)"
+      },
+      {
+       "name": "text4",
+       "title": "(Country of Birth)"
+      }
+     ],
+     "name": "List children of relative continued"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "(Name)"
+      },
+      {
+       "name": "text2",
+       "title": "(Relationship)"
+      },
+      {
+       "name": "text3",
+       "title": "(Date of Birth)"
+      },
+      {
+       "name": "text4",
+       "title": "(Country of Birth)"
+      }
+     ],
+     "name": "List children of relative continued"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "(Name)"
+      },
+      {
+       "name": "text2",
+       "title": "(Relationship)"
+      },
+      {
+       "name": "text3",
+       "title": "(Date of Birth)"
+      },
+      {
+       "name": "text4",
+       "title": "(Country of Birth)"
+      }
+     ],
+     "name": "List children of relative continued"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "(Name)"
+      },
+      {
+       "name": "text2",
+       "title": "(Relationship)"
+      },
+      {
+       "name": "text3",
+       "title": "(Date of Birth)"
+      },
+      {
+       "name": "text4",
+       "title": "(Country of Birth)"
+      }
+     ],
+     "name": "List children of relative continued"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "Street Address"
+      },
+      {
+       "name": "text2",
+       "title": "Town or City"
+      },
+      {
+       "name": "text3",
+       "title": "State"
+      }
+     ],
+     "name": "Address in the United States where your relative intends to live."
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "Street, city, province and country"
+      },
+      {
+       "name": "text2",
+       "title": "Phone Number (if any)"
+      }
+     ],
+     "name": "Your relative's address abroad. (Include street, city, province and country)"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "Name"
+      },
+      {
+       "name": "text2",
+       "title": "Address (Include street, city, province and country):"
+      }
+     ],
+     "name": "If your relative's native alphabet is other than Roman letters, write his or her name and foreign address in the native alphabet."
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "Address"
+      },
+      {
+       "name": "text2",
+       "title": "From:"
+      },
+      {
+       "name": "text3",
+       "title": "To:"
+      }
+     ],
+     "name": "If filing for your spouse, give last address at which you lived together. (Include street, city, province, if any, and country):"
+    },
+    {
+     "type": "multipletext",
+     "commentText": "Your relative is in the United States and will apply for adjustment of status to that of a lawful permanent resident at the USCIS office in:",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "City"
+      },
+      {
+       "name": "text2",
+       "title": "State"
+      }
+     ],
+     "name": "Complete the information below if your relative is in the United States and will apply for adjustment of status. Your relative is in the United States and will apply for adjustment of status to that of a lawful permanent resident at the USCIS office in:"
+    },
+    {
+     "type": "multipletext",
+     "isRequired": true,
+     "items": [
+      {
+       "name": "text1",
+       "title": "City"
+      },
+      {
+       "name": "text2",
+       "title": "Country"
+      }
+     ],
+     "name": "If your relative is not eligible for adjustment of status, he or she will apply for a visa abroad at the American consular post in:"
+    },
+    {
+     "type": "comment",
+     "name": "Note: Designation of a U.S. embassy or consulate outside the country of your relative's last residence does not guarantee acceptance for processing by that post. Acceptance is at the discretion of the designated embassy or consulate."
+    },
+    {
+     "type": "text",
+     "isRequired": true,
+     "name": "Other information. If separate petitions are also being submitted for other relatives, give names of each and relationship."
+    },
+    {
+     "type": "checkbox",
+     "choices": [
+      {
+       "value": "one",
+       "text": "Yes"
+      },
+      {
+       "value": "two",
+       "text": "No"
+      }
+     ],
+     "commentText": "If \"Yes,\" give name, place and date of filing and result.",
+     "hasComment": true,
+     "isRequired": true,
+     "name": "Have you ever before filed a petition for this or any other alien?"
+    }
+   ]
+  },
+  {
+   "name": "page3",
+   "questions": [
+    {
+     "type": "multipletext",
+     "items": [
+      {
+       "name": "text1"
+      },
+      {
+       "name": "text2"
+      }
+     ],
+     "name": "Information"
+    }
+   ]
+  }
+ ]
+}
